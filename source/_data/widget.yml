@@ -1,0 +1,42 @@
+bottom:
+  - class_name: contact
+    id_name: contact
+    name: 交流
+    icon: fas fa-envelope
+    order: 1
+    html: "
+      <div class='announcement'>
+        <text>&nbsp;&nbsp;&nbsp;&nbsp;If you encounter any problems on this blog, please let me know.And I will do my best to improve.Also, thank you for your use and contribution.</text>
+      <div>
+      <div class='contact-wrapper'>
+        <!-- 微信 -->
+        <div class='contact-container'>
+          <div class='contact-item' data-type='wechat'>
+            <img src='/img/contact_img/wechat.png' alt='微信'/>
+          </div>
+          <div class='qr-code' id='wechat-qr'>
+            <img src='/img/contact_img/wechat-qr.jpg' alt='微信二维码'/>
+          </div>
+        </div>
+        
+        <!-- QQ -->
+        <div class='contact-container'>
+          <div class='contact-item' data-type='qq'>
+            <img src='/img/contact_img/qq.png' alt='qq'/>
+          </div>
+          <div class='qr-code' id='qq-qr'>
+            <img src='/img/contact_img/qq-qr.jpg' alt='QQ二维码'/>
+          </div>
+        </div>
+        
+        <!-- 群聊 -->
+        <div class='contact-container'>
+          <div class='contact-item' data-type='group'>
+            <img src='/img/contact_img/group.png' alt='群聊'/>
+          </div>
+          <div class='qr-code' id='qqGroup-qr'>
+            <img src='/img/contact_img/group-qr.png' alt='群聊二维码'/>
+          </div>
+        </div>
+      </div>
+    "

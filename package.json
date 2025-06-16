@@ -12,7 +12,7 @@
     "version": "7.3.0"
   },
   "dependencies": {
-    "element-plus": "^2.9.11",
+    "element-plus": "^2.10.2",
     "hexo": "^7.3.0",
     "hexo-butterfly-artitalk": "^1.0.5",
     "hexo-butterfly-hpptalk": "^1.0.4",
